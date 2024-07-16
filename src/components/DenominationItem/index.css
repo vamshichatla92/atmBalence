@@ -1,0 +1,11 @@
+.denomination-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.denomination-button {
+  background-color: rgb(27, 27, 197);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+}

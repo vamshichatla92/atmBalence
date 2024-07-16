@@ -1,0 +1,56 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cash-withdraw-container {
+  border-radius: 8px;
+  background-color: rgb(7, 8, 54);
+  display: flex;
+  flex-direction: column;
+}
+.user-details-container {
+  color: #fff;
+  margin: 10px;
+  display: flex;
+}
+.initial-container {
+  background-color: darkcyan;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.initial {
+  font-size: 7px;
+}
+.name {
+  color: #bdbbc298;
+}
+.balance-container {
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-balance {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 10px;
+}
+.withdraw,
+.choose-amt {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+}
